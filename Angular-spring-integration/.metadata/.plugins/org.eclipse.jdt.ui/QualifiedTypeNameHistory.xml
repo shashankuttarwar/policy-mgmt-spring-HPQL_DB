@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="com.alp.policymanagement.model.BaseModel"/>
+<fullyQualifiedTypeName name="com.alp.policymanagement.model.UserPolicy"/>
+<fullyQualifiedTypeName name="com.alp.policymanagement.model.Policy"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="java.util.Random"/>
+<fullyQualifiedTypeName name="java.util.Date"/>
+</qualifiedTypeNameHistroy>

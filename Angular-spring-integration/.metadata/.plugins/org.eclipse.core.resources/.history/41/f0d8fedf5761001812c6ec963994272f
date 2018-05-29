@@ -1,0 +1,19 @@
+/**
+ * 
+ */
+package com.alp.policymanagement.model;
+
+import java.util.Date;
+import java.util.List;
+
+/**
+ * @author lenovo
+ *
+ */
+public class UserPolicy extends BaseModel{
+
+	private static final long serialVersionUID = 1L;
+	private String fName = "";
+	private String lName = "";
+	
+	}

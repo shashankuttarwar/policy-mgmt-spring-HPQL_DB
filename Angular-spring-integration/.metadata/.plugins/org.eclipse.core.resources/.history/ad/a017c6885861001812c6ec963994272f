@@ -1,0 +1,29 @@
+/**
+ * 
+ */
+package com.alp.policymanagement.repository.mapper;
+
+import java.sql.ResultSet;
+import java.sql.SQLException;
+
+import org.springframework.jdbc.core.RowMapper;
+
+import com.alp.policymanagement.model.Policy;
+import com.alp.policymanagement.model.UserPolicy;
+
+/**
+ * @author lenovo
+ *
+ */
+public class UserPolicyMapper implements RowMapper<Policy>{
+
+	@Override
+	public UserPolicy mapRow(ResultSet rset, int row) throws SQLException {
+		UserPolicy upolicy = new UserPolicy();
+		upolicy.setId(rset.getString("AMOUNT"));
+		upolicy.setPolicyNumber(rset.getDate("END_DATE"));
+		upolicy.setUserId(rset.getString("NAME"));
+		return upolicy;
+	}
+
+}
